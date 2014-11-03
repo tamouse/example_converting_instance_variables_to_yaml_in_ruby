@@ -1,0 +1,10 @@
+---
+- name: device-1
+  parameters:
+    app_folder: deploy_project
+    app_id: '1'
+    tar_file: deploy_project.tar.gz
+    profile_id: '3'
+    version_id: '2'
+  classes:
+  - install
